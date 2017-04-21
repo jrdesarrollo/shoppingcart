@@ -50,12 +50,6 @@
 			$this->assertTrue($pro->editProduct(Products::model()->getLastId(),['name'=>'Nombre Editado','price'=>2555.50]));
 		}
 		
-		public function testRemoveProductsContuccessfully()
-		{
-			$pro = new ProductsCont();
-			$this->assertTrue($pro->removeProduct(Products::model()->getLastId()-1));
-		}
-		
 		public function testProvideFalseIdToRemove()
 		{
 			$pro = new ProductsCont();
