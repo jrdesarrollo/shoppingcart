@@ -1,0 +1,7 @@
+<phpunit bootstrap="Autoloader.php">
+<testsuites>
+    <testsuite name="shopping cart tests">
+      <directory>Tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
